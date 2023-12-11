@@ -1,0 +1,30 @@
+/* Global Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Impact', sans-serif;
+}
+
+h3{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* Font Faces */
+@font-face {
+    font-family: 'Impact', sans-serif;
+    src: url('../fonts/Impact-Font/impact.ttf');
+}
+
+@font-face {
+    font-family: 'Caveat', cursive;
+    src: url('../fonts/Caveat/Caveat-VariableFont_wght.ttf');
+}

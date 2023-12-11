@@ -1,0 +1,102 @@
+var quotes = [
+    "Life is what happens when you're busy making other plans. - John Lennon",
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "Don't let the fear of striking out keep you from playing the game. - Babe Ruth",
+    "The difference between ordinary and extraordinary is that little extra. - Jimmy Johnson",
+    "Believe you can and you're halfway there. - Theodore Roosevelt",
+    "You must be the change you wish to see in the world. -Mahatma Gandhi",
+    "Try to be a rainbow in someone's cloud. - Maya Angelou",
+    "You only live once, but if you do it right, once is enough. - Mae West",
+    "Life is like riding a bicycle. To keep your balance, you must keep moving. - Albert Einstein",
+    "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart. - Helen Keller",
+    "Keep your face always toward the sunshine - and shadows will fall behind you. - Walt Whitman",
+    "Happiness is not something you postpone for the future; it is something you design for the present. - Jim Rohn",
+    "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough. - Oprah Winfrey",
+    "Life itself is the most wonderful fairy tale. - Hans Christian Andersen",
+    "The best preparation for tomorrow is doing your best today. - H. Jackson Brown, Jr.",
+    "Nothing is impossible, the word itself says 'I'm possible'! - Audrey Hepburn",
+    "We know what we are, but know not what we may be. - William Shakespeare",
+    "A happy family is but an earlier heaven. - George Bernard Shaw",
+    "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
+    "Live in the sunshine, swim the sea, drink the wild air. - Ralph Waldo Emerson",
+    "The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela",
+    "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
+    "Never let the fear of striking out keep you from playing the game. - Babe Ruth",
+    "Life is either a daring adventure or nothing at all. - Helen Keller",
+    "Many of life's failures are people who did not realize how close they were to success when they gave up. - Thomas A. Edison",
+    "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose. - Dr. Seuss",
+    "Success is not final; failure is not fatal: It is the courage to continue that counts. - Winston S. Churchill",
+    "Success usually comes to those who are too busy to be looking for it. - Henry David Thoreau",
+    "The way to get started is to quit talking and begin doing. - Walt Disney",
+    "If you really look closely, most overnight successes took a long time. - Steve Jobs",
+    "The secret of success is to do the common thing uncommonly well. - John D. Rockefeller Jr.",
+    "I find that the harder I work, the more luck I seem to have. - Thomas Jefferson",
+    "There are no secrets to success. It is the result of preparation, hard work, and learning from failure. - Colin Powell",
+    "Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don't quit. - Conrad Hilton",
+    "If you can dream it, you can do it. - Walt Disney",
+    "The only place where success comes before work is in the dictionary. - Vidal Sassoon",
+    "The starting point of all achievement is desire. - Napoleon Hill",
+    "Success is the sum of small efforts, repeated day in and day out. - Robert Collier",
+    "If you want to achieve excellence, you can get there today. As of this second, quit doing less-than-excellent work. - Thomas J. Watson",
+    "All progress takes place outside the comfort zone. - Michael John Bobak",
+    "You may only succeed if you desire succeeding; you may only fail if you do not mind failing. - Philippos",
+    "Courage is resistance to fear, mastery of fear - not absense of fear. - Mark Twain",
+    "Only put off until tomorrow what you are willing to die having left undone. - Pablo Picasso",
+    "People often say that motivation doesn't last. Well, neither does bathing - that's why we recommend it daily. - Zig Ziglar",
+    "We become what we think about most of the time, and that's the strangest secret. - Earl Nightingale",
+    "The only person you are destined to become is the person you decide to be. - Ralph Waldo Emerson",
+    "The best revenge is massive success. - Frank Sinatra",
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "If you cannot do great things, do small things in a great way. - Napoleon Hill",
+    "The secret to getting ahead is getting started. - Mark Twain",
+    "You can't fall if you don't climb. But there's no joy in living your whole life on the ground. - Unknown",
+    "Everything you've ever wanted is on the other side of fear. - George Addair",
+    "Do one thing every day that scares you. -Eleanor Roosevelt",
+    "It's no use going back to yesterday, because I was a different person then. - Lewis Carroll",
+    "Smart people learn from everything and everyone, average people from their experiences, stupid people already have all the answers. - Socrates",
+    "Do what you feel in your heart to be right - for you'll be criticized anyway. - Eleanor Roosevelt",
+    "Happiness is not something ready made. It comes from your own actions. - Dalai Lama XIV",
+    "Whatever you are, be a good one. - Abraham Lincoln",
+    "The same boiling water that softens the potato hardens the egg. It's what you're made of. Not the circumstances. - Unknown",
+    "If we have the attitude that it's going to be a great day it usually is. - Catherine Pulsifier",
+    "You can either experience the pain of discipline or the pain of regret. The choice is yours. - Unknown",
+    "Impossible is just an opinion. - Paulo Coelho",
+    "Your passion is waiting for your courage to catch up. - Isabelle Lafleche",
+    "Magic is believing in yourself. If you can make that happen, you can make anything happen. - Johann Wolfgang Von Goethe",
+    "If something is important enough, even if the odds are stacked against you, you should still do it. - Elon Musk",
+    "Hold the vision, trust the process. - Unknown",
+    "Don't be afraid to give up the good to go for the great. - John D. Rockefeller",
+    "People who wonder if the glass is half empty or full miss the point. The glass is refillable. - Unknown",
+    "You can't have a million-dollar dream with a minimum-wage work ethic. - Stephen C. Hogan",
+    "If you set goals and go after them with all the determination you can muster, your gifts will take you places that will amaze you. - Les Brown",
+    "I now tried a new hypothesis: It was possible that I was more in charge of my happiness than I was allowing myself to be. - Michelle Obama",
+    "You must expect great things of yourself before you can do them. - Michael Jordan",
+    "Motivation is what gets you started. Habit is what keeps you going. - Jim Ryun",
+    "People rarely succeed unless they have fun in what they are doing. - Dale Carnegie",
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "Success is walking from failure to failure with no loss of enthusiasm. - Winston Churchill",
+    "Just when the caterpillar thought the world was ending, he turned into a butterfly. - Proverb",
+    "Successful entrepreneurs are givers and not takers of positive energy. - Anonymous",
+    "Whenever you see a successful person you only see the public glories, never the private sacrifices to reach them. - Vaibhav Shah",
+    "Opportunities don't happen, you create them. - Chris Grosser",
+    "Try not to become a person of success, but rather try to become a person of value. - Albert Einstein",
+    "Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt",
+    "I have not failed. I've just found 10,000 ways that won't work. - Thomas A. Edison",
+];
+
+var previousQuoteIndex = null;
+
+var newQuoteButton = document.getElementById("newQuote");
+var quoteElement = document.getElementById("quote");
+
+newQuoteButton.addEventListener("click", getQuote);
+
+function getQuote() {
+    var randomIndex;
+    do {
+        randomIndex = Math.floor(Math.random() * quotes.length);
+    } while (randomIndex === previousQuoteIndex);
+
+    previousQuoteIndex = randomIndex;
+    quoteElement.textContent = quotes[randomIndex];
+}
